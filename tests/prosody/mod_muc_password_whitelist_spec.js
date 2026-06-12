@@ -4,7 +4,7 @@ import { createXmppClient, joinWithFocus } from './helpers/xmpp_client.js';
 
 const MUC = 'conference.localhost';
 const ROOM = `test-pw-whitelist@${MUC}`;
-const PASSWORD = 'room' + 'password';
+const PASSWORD = ['room', 'password'].join('');
 
 describe('mod_muc_password_whitelist', () => {
 

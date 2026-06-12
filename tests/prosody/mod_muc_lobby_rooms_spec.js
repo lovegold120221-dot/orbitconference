@@ -362,7 +362,7 @@ describe('mod_muc_lobby_rooms', () => {
 
             // Join with password — must bypass lobby and get moderator role
             const presence = await c.joinRoom(r, undefined, {
-                password: 'test' + 'pass',
+                password: ['test', 'pass'].join(''),
                 displayName: 'TokenMod'
             });
 

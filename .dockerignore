@@ -1,0 +1,11 @@
+node_modules/
+.git/
+.env
+.github/
+.vscode/
+tests/
+android/
+ios/
+docs/
+logs/
+*.log
