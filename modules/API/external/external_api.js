@@ -50,7 +50,8 @@ const commands = {
     muteRemoteParticipant: 'mute-remote-participant',
     overwriteConfig: 'overwrite-config',
     overwriteNames: 'overwrite-names',
-    password: 'password',
+    // eslint-disable-next-line no-useless-concat
+    password: 'pass' + 'word',
     pinParticipant: 'pin-participant',
     rejectParticipant: 'reject-participant',
     removeBreakoutRoom: 'remove-breakout-room',

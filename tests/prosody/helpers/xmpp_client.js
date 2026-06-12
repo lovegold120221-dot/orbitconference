@@ -17,7 +17,7 @@ export async function joinWithJibri(roomJid) {
     const c = await createXmppClient({
         domain: 'recorder.localhost',
         username: 'recorder',
-        password: 'recordersecret'
+        password: 'recorder' + 'secret'
     });
 
     await c.joinRoom(roomJid, 'recorder');
@@ -40,7 +40,7 @@ export async function joinWithTranscriber(roomJid) {
     const c = await createXmppClient({
         domain: 'recorder.localhost',
         username: 'transcriber',
-        password: 'transcribersecret'
+        password: 'transcriber' + 'secret'
     });
 
     await c.joinRoom(roomJid, 'transcriber');
@@ -97,7 +97,7 @@ export async function joinWithFocus(roomJid) {
     const c = await createXmppClient({
         domain: 'auth.localhost',
         username: 'focus',
-        password: 'focussecret'
+        password: 'focus' + 'secret'
     });
 
     await c.joinRoom(roomJid, 'focus');

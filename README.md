@@ -1,15 +1,13 @@
-# <p align="center">Orbit Meeting</p>
+# Orbit Meeting
 
 Orbit Meeting is a set of Open Source projects which empower users to use and deploy
 video conferencing platforms with state-of-the-art video quality and features.
 
-<hr />
+---
 
-<p align="center">
-<img src="https://raw.githubusercontent.com/jitsi/jitsi-meet/master/readme-img1.png" width="900" />
-</p>
+![Orbit Meeting Screenshot](https://raw.githubusercontent.com/jitsi/jitsi-meet/master/readme-img1.png)
 
-<hr />
+---
 
 Amongst others here are the main features Orbit Meeting offers:
 
@@ -33,14 +31,25 @@ Using mobile? No problem, you can either use your mobile web browser or our full
 mobile apps:
 
 | Android | Android (F-Droid) | iOS |
-|:-:|:-:|:-:|
-| [<img src="resources/img/google-play-badge.png" height="50">](https://play.google.com/store/apps/details?id=org.jitsi.meet) | [<img src="resources/img/f-droid-badge.png" height="50">](https://f-droid.org/packages/org.jitsi.meet/) | [<img src="resources/img/appstore-badge.png" height="50">](https://itunes.apple.com/us/app/jitsi-meet/id1165103905) |
+| :---: | :---: | :---: |
+| [![Android](resources/img/google-play-badge.png)](https://play.google.com/store/apps/details?id=org.jitsi.meet) | [![Android (F-Droid)](resources/img/f-droid-badge.png)](https://f-droid.org/packages/org.jitsi.meet/) | [![iOS](resources/img/appstore-badge.png)](https://itunes.apple.com/us/app/jitsi-meet/id1165103905) |
 
 If you are feeling adventurous and want to get an early scoop of the features as they are being
 developed you can also sign up for our open beta testing here:
 
 * [Android](https://play.google.com/apps/testing/org.jitsi.meet)
 * [iOS](https://testflight.apple.com/join/isy6ja7S)
+
+## Installation
+
+To get started with local development, clone the repository, install dependencies and start the local development server:
+
+```bash
+npm install
+npm start
+```
+
+Please see the [Development Workflow](CONTRIBUTING.md) for more details.
 
 ## Running your own instance
 
@@ -49,7 +58,7 @@ If you'd like to run your own Orbit Meeting installation head over to the [handb
 We provide Debian packages and a comprehensive Docker setup to make deployments as simple as possible.
 Advanced users also have the possibility of building all the components from source.
 
-You can check the latest releases [here](https://jitsi.github.io/handbook/docs/releases).
+You can check [the latest releases](https://jitsi.github.io/handbook/docs/releases).
 
 ## Jitsi as a Service
 
@@ -77,11 +86,6 @@ For information on reporting security vulnerabilities in Orbit Meeting, see [SEC
 If you are looking to contribute to Orbit Meeting, first of all, thank you! Please
 see our [guidelines for contributing](CONTRIBUTING.md).
 
-<br />
-<br />
-
-<footer>
-<p align="center" style="font-size: smaller;">
-Built with ❤️ by the Orbit team at <a href="https://8x8.com" target="_blank">8x8</a> and our community.
-</p>
-</footer>
+_
+Built with ❤️ by the Orbit team at [8x8](https://8x8.com) and our community.
+_

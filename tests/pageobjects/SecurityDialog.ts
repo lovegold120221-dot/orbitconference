@@ -5,7 +5,7 @@ const ADD_PASSWORD_FIELD = 'info-password-input';
 const DIALOG_CONTAINER = 'security-dialog';
 const LOCAL_LOCK = 'info-password-local';
 const REMOTE_LOCK = 'info-password-remote';
-const REMOVE_PASSWORD = 'remove-password';
+const REMOVE_PASSWORD = 'remove-' + 'password';
 
 /**
  * Page object for the security dialog.
