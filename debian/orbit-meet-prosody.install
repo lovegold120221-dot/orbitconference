@@ -1,0 +1,3 @@
+doc/debian/orbit-meet-prosody/prosody.cfg.lua-jvb.example   /usr/share/orbit-meet-prosody/
+doc/debian/orbit-meet-prosody/jaas.cfg.lua                  /usr/share/orbit-meet-prosody/
+resources/prosody-plugins/                                  /usr/share/orbit-meet/

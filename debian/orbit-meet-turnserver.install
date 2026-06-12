@@ -1,0 +1,2 @@
+doc/debian/orbit-meet-turn/turnserver.conf          /usr/share/orbit-meet-turnserver/
+doc/debian/orbit-meet/orbit-meet.conf               /usr/share/orbit-meet-turnserver/

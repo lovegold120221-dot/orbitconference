@@ -1,0 +1,15 @@
+interface_config.js		/usr/share/orbit-meet/
+*.html					/usr/share/orbit-meet/
+libs					/usr/share/orbit-meet/
+static                  /usr/share/orbit-meet/
+css/all.css 			/usr/share/orbit-meet/css/
+sounds					/usr/share/orbit-meet/
+fonts					/usr/share/orbit-meet/
+images					/usr/share/orbit-meet/
+lang					/usr/share/orbit-meet/
+resources/robots.txt	/usr/share/orbit-meet/
+resources/*.sh			/usr/share/orbit-meet/scripts/
+pwa-worker.js			/usr/share/orbit-meet/
+manifest.json			/usr/share/orbit-meet/
+doc/jaas/move-to-jaas.sh        /usr/share/orbit-meet/scripts/
+doc/jaas/update-asap-daily.sh   /usr/share/orbit-meet/scripts/

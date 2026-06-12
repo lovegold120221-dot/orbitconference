@@ -1,0 +1,6 @@
+doc/debian/orbit-meet/orbit-meet.example        /usr/share/orbit-meet-web-config/
+doc/debian/orbit-meet/orbit-meet.example-apache /usr/share/orbit-meet-web-config/
+config.js                                       /usr/share/orbit-meet-web-config/
+doc/jaas/nginx-jaas.conf                        /usr/share/orbit-meet-web-config/
+doc/jaas/index-jaas.html                        /usr/share/orbit-meet-web-config/
+doc/jaas/8x8.vc-config.js                        /usr/share/orbit-meet-web-config/
